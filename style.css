@@ -1,0 +1,24 @@
+table th { text-align: left; vertical-align: top; }
+span.required { font-size: smaller; font-weight: normal; color: red; display: block; }
+
+input.name { width: 20em; }
+input.email { width: 30em; }
+input.website { width: 30em; }
+textarea.comment { width: 40em; height: 8em; }
+
+div.comment { overflow: auto; margin: 0.5em 0; padding: 0.5em 0; border-top: solid 1px lightgray; }
+div.comment:first-child { border-top: none; }
+div.comment h2 { margin: 0; }
+div.comment .submissionTime { margin-bottom: 1em; font-size: smaller; font-style: italic; }
+img.gravatar { float: left; margin-right: 1em; }
+
+.error {
+    color: red; font-weight: bold; font-size: 10pt;
+}
+
+.testMode { 
+    color: white; font-weight: bold; font-size: 12pt; max-width: 40em; 
+    background-color: red; border: solid 1px black; padding: 0.5em;
+}
+
+.testMode h1 { margin-top: 0; padding-top: 0; }
